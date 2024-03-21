@@ -83,11 +83,9 @@ cohortFive.forEach((cohortFive) => {
 
 // the includes method checks if the array includes a certain element and returns true if found, otherwise false.
 const includesJeffrey = cohortFive.includes("Jeffrey");
-console.log("\nIt should return true because the array includes Jeffrey");
+//It should return true because the array includes Jeffrey
 console.log(includesJeffrey);
 
 const includesTaiwo = cohortFive.includes("Taiwo");
-console.log(
-  "\nIt should return false because the array does not includes Taiwo"
-);
+// It should return false because the array does not includes Taiwo"
 console.log(includesTaiwo);
