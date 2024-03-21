@@ -77,8 +77,8 @@ cohortFive.forEach((cohortFive) => {
 
 /**
  * You can also search for elements in an array using some of the methods below
- * includes
- * indexOf
+ * 1. includes
+ * 2. indexOf
  */
 
 // the includes method checks if the array includes a certain element and returns true if found, otherwise false.
@@ -89,3 +89,13 @@ console.log(includesJeffrey);
 const includesTaiwo = cohortFive.includes("Taiwo");
 // It should return false because the array does not includes Taiwo"
 console.log(includesTaiwo);
+
+// the indexOf method returns the index of the first occurrence of the specified element in the array,
+//or -1 if the element is not found.
+const indexOfJeffrey = cohortFive.indexOf("Jeffrey");
+//It should return 0 because the Jeffrey is the first element in the array
+console.log(indexOfJeffrey);
+
+const indexOfTaiwo = cohortFive.indexOf("Taiwo");
+//It should return -1 because the Taiwo is the first element in the array
+console.log(indexOfTaiwo);
